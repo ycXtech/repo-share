@@ -1,0 +1,4 @@
+interface:
+  display_name: "开源项目分享"
+  short_description: "发现开源项目，用内置自然口吻写 X 帖子与长文"
+  default_prompt: "使用 $repo-share 找值得分享的开源项目，直接用合适的内置口吻准备 X 帖子或长文草稿。"
