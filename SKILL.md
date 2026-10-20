@@ -1,17 +1,17 @@
 ---
 name: repo-share
-description: Discover and verify useful public GitHub projects, then draft X posts or illustrated X Articles in ready-to-use natural writing styles. Use for open-source discovery or sharing; not for GitHub account administration or unrelated social copy.
+description: Let users choose between GitHub open-source project discovery and AI/hardware inspiration briefings, then prepare sourced X drafts with authentic images. Use for either discovery mode or sharing its results on X.
 ---
 
 # Repo Share
 
-Find projects automatically, verify them at their original sources, then help users discover or share them. A search result is a candidate, not an endorsement. Drafts and images are for the user to review; never publish to X without a separate explicit request.
+Offer two separate paths: useful GitHub projects, or recent AI/hardware inspiration. Verify selected material at original sources, then help users learn or share it. A search result is a candidate, not an endorsement. Drafts and images are for the user to review; never publish to X without a separate explicit request.
 
 ## Choose the task
 
-- For project discovery or comparison, use **Discovery** and **Verify** below, then answer the request directly.
-- For X sharing, read [references/x-writing.md](references/x-writing.md). If the user has not chosen a format, ask whether they want six independent short posts or one long X Article. Do not ask again when their request or previous answer already settles it.
-- For an Article, show six short text-only project directions with original repository links first. Stop for the user's choice. On their next reply, continue with the chosen project without restarting discovery unless the topic changed or the information became stale.
+- If the user invokes `repo-share` without saying what to find, ask them to choose **(1) AI/硬件灵感简报** or **(2) GitHub 好用的开源项目**. Do not start both paths or ask again when the request already makes the choice clear. Follow any specified theme within the chosen path.
+- **GitHub projects:** use **Discovery** and **Verify** below. If the user wants X content, read [references/x-writing.md](references/x-writing.md); if they have not chosen a format, ask whether they want six independent short posts or one long X Article. For an Article, show six short text-only project directions with repository links and wait for their choice.
+- **AI/hardware briefing:** read [references/daily-briefing.md](references/daily-briefing.md). Search recent AI, hardware, and AI×hardware developments or verify a supplied briefing, then prepare the requested briefing and/or X drafts. This path does not search for GitHub project recommendations or use the six-project selection rule. An official repository may still be a source for a news item.
 
 ## Discovery
 
