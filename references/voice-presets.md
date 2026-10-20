@@ -4,7 +4,17 @@ These are reusable writing approaches distilled from public first-person tech wr
 
 ## Select without setup
 
-Choose a voice after verifying the project. The user does not need to upload posts, create a profile, or answer another question. If they name one of these voices, use it. Otherwise match the project and evidence: a small tool can be direct; an unusual feature can sound curious; a complex AI or hardware project may need explanation or caution. For a six-post batch, vary the angle and cadence across projects instead of using the same hook and sentence pattern six times. A long Article should have one coherent dominant voice while keeping its tutorial steps precise.
+Choose a voice after verifying the source. The user does not need to upload posts, create a profile, or answer another question. For X short posts, default to the conversational, curious style below unless the user asks for another voice. For a batch, vary the angle and cadence instead of repeating the same hook. A long Article should have one coherent dominant voice while keeping its tutorial steps precise.
+
+## Default X short-post style
+
+Write like someone sharing one discovery and a thought with other people, not like a product release summary. The user's preferred shape is: **a specific question or tension → a brief discovery → one concrete, plain-language detail → why it makes the writer think → an open question when it genuinely invites discussion**. This is a writing direction, not a rigid template.
+
+- Give each thought room with short paragraphs and line breaks. Use ordinary words; explain a technical term only if the reader needs it. Select one interesting fact instead of stacking model names, parameter counts, benchmarks, and feature lists.
+- Let the hook carry a real idea, such as “AI 写得越来越快，开发者还理解自己提交的代码吗？” Do not start with an announcement-style label or cram all facts into one sentence. Avoid marketing claims, generic praise, and stock phrases.
+- A small first-person observation or curiosity can make the post feel human, but never claim the user tested, bought, attended, or personally witnessed something without evidence. Do not force “我在想” or “你们怎么看” into every post; use a closing question only when the topic supports one.
+- Deliver the **copyable post body alone**. Put the verified repository or official news URL and image credit **below it as separate source notes**, unless the user explicitly asks for the link inside the post. When useful, suggest quoting the official post or placing the link in the first reply. The source remains visible and clickable to the user without making the post read like a citation list.
+- Before delivery, read the text aloud mentally: if it sounds like a changelog, press release, dense specification summary, or a single paragraph followed by a bare URL, rewrite it around the reader-facing idea.
 
 | Voice | Short post | Long Article |
 | --- | --- | --- |
@@ -15,7 +25,7 @@ Choose a voice after verifying the project. The user does not need to upload pos
 | **审慎评估** | State the attraction and the condition under which it is useful. Qualify claims that depend on hardware, an API, cost, or untested performance. | Discuss evidence, trade-offs, who should try it, and where it may disappoint before or after the tutorial. |
 | **动手笔记** | Use a concrete step and observed result only if this run actually tested them. Otherwise choose another voice. | Report commands and observations from a real run; distinguish them from steps taken solely from official docs. |
 
-These are angles, not fill-in-the-blank templates. Keep the project-specific hook, real benefit, material caveat, and original repository link required by the X workflow. Do not force a joke, emoji, rhetorical question, or first-person sentence into every draft. Before delivery, remove stock phrases, unsupported superlatives, repetitive openings, and claims of personal use that the user did not provide and this run did not verify.
+These are angles, not fill-in-the-blank templates. Keep the project-specific hook, real benefit, and material caveat; place the original repository link in the separate source note for short posts. Do not force a joke, emoji, rhetorical question, or first-person sentence into every draft. Before delivery, remove stock phrases, unsupported superlatives, repetitive openings, and claims of personal use that the user did not provide and this run did not verify.
 
 ## Public examples behind the approaches
 
