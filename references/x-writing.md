@@ -9,10 +9,10 @@ Read [voice-presets.md](voice-presets.md) before writing short posts or the sele
 ## Six independent short posts
 
 1. Verify six different repositories and their practical appeal. Each post covers exactly one project and stands alone; do not turn the batch into a thread.
-2. For each post, start with a project-specific question or tension, then introduce the project in plain language, explain one distinctive mechanism or use, and connect it to a human observation or discussion question. Use short paragraphs. Include a material constraint naturally when it changes the point. Leave installation steps and specification lists to Article mode.
+2. For each post, follow the seven-paragraph short-post rhythm and writing-block output in [voice-presets.md](voice-presets.md), including 1–2 project-specific X hashtags in the final paragraph of each independent post. Ground its opening tension, one mechanism, and deeper question in that specific project. Include a material constraint naturally when it changes the point. Leave installation steps and specification lists to Article mode.
 3. Aim for an ordinary X post length. Check the actual X composer character count before publishing, especially with Chinese text, links, and emoji; do not claim a draft fits solely from raw string length.
 4. Pair each post with one relevant, real image. A software project calls for an actual interface or output screenshot; open hardware calls for an official device, prototype, or demo photo. Accept a user-provided image when its content and usage rights fit, and retain its source as “user-provided.” Otherwise use the image workflow below. Replace a project when no usable image can be found.
-5. Show six separate, cleanly copyable post bodies. Put each original repository URL and image source beneath its body as labeled notes, outside the text to copy, unless the user asks for links in the post. Show matching image previews or clickable local image files. Save text plus images when the environment supports files. Let the user make final edits.
+5. Show six separate `social_post` writing blocks, one for each cleanly copyable post. Put each original repository URL and image source beneath its block as labeled notes, unless the user asks for links in the post. Show matching image previews or clickable local image files. Save text plus images when the environment supports files. Let the user make final edits.
 
 ## X Article: two stages
 
